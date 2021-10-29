@@ -1,0 +1,88 @@
+/*
+  Colors
+
+  First Theme  : #ef8172
+  Second Theme : #8972ef
+
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  margin: 0 auto;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.logo {
+  width: 10%;
+}
+
+/* Header Section */
+
+#header {
+  background-color: #ef8172;
+  padding: 3% 15% 0;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.heading-image {
+  position: relative;
+  right: -5%;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+/* About Section */
+
+#about {
+  background-color: #fff;
+  padding: 10% 15% 10%;
+  text-align: center;
+}
+
+.about-icon {
+  transition: color 0.1s;
+  margin-bottom: 20px;
+  color: #ff4c68;
+}
+
+.about-icon:hover {
+  color: #ef8172;
+}
+
+.about-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.about-text {
+  color: #aaa;
+}
+
+/* Courses Section */
+
+#courses {
+  background-color: #ef8172;
+  padding: 3% 15% 0;
+  height: 500px;
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #fff;
+  padding: 3% 15% 0;
+  height: 500px;
+}
